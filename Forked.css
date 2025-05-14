@@ -14,7 +14,18 @@ h1 {
   font-size: 500%;
   font-family:monospace;
   }
-
+h2 {color:rgb(219, 226, 239);
+  font-size: 300%;
+  font-family:monospace;
+  text-decoration: underline;
+  
+}
+p1 {
+  color: rgb(249, 247, 247);
+  text-align: center;
+  font-size: 200%;
+  font-family:monospace;
+  }
 
 li {
   color: rgb(249, 247, 247);
@@ -24,8 +35,34 @@ li {
 
 
 }
+h3 {
+color: rgb(249, 247, 247);
+  font-size: 150%;
+  font-family:monospace;
+  text-decoration: underline;
+  
 
+}
+p2 {
+  color: rgb(249, 247, 247);
+  font-size: 150%;
+  font-family:monospace;
 
+}
+.car {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius:60px;
+  
+  
+}
+.carimg {
+  width:50%;
+  border-style:solid;
+  border-color:rgb(255, 255, 255);
+  border-radius: 20px;
+}
 
 
 ul {
@@ -40,5 +77,44 @@ li {
   float: left;
 }
 
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(17, 45, 78);
+  color:rgb(241, 239, 153);
+  
+  
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgb(55, 68, 77)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
